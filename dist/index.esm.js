@@ -4144,8 +4144,6 @@ var Menu = function (_a) {
                                     return (jsx(StyledNavLink, __assign({ isActive: entry.href === activeItem || entry.href === activeSubItem, primaryMenu: primaryMenu }, { children: jsx(MenuLink, __assign({ href: entry.href }, { children: jsx(StyledNavLinkLabel, { children: entry.label }, void 0) }), void 0) }), entry.href));
                                 }) }, void 0),
                             jsx(ConnectContainer, { children: jsxs(Flex, { children: [jsx(SubNavTextGam, {}, void 0),
-                                        jsx(SubNavTextGam, {}, void 0),
-                                        jsx(SubNavTextGam, {}, void 0),
                                         jsx(SubNavPrice$1, { treePriceUsd: treePriceUsd }, void 0), userMenu] }, void 0) }, void 0)] }, void 0)] }), void 0),
             jsxs(BodyWrapper, { children: [jsx(Panel, { isPushed: isPushed, isMobile: isMobile, showMenu: true, isDark: isDark, toggleTheme: toggleTheme, langs: langs, setLang: setLang, currentLang: currentLang, treePriceUsd: treePriceUsd, pushNav: setIsPushed, links: links }, void 0),
                     jsx(Inner, __assign({ isPushed: isPushed, showMenu: true, isHome: isHome }, { children: children }), void 0),

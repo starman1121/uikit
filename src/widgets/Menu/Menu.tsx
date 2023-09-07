@@ -220,8 +220,7 @@ const Menu: React.FC<NavProps> = ({
               <LangSelector currentLang={currentLang} langs={langs} setLang={setLang} />
             </Flex> */}
             <Flex>
-              <SubNavTextGam />
-              <SubNavTextGam />
+             
               <SubNavTextGam />
               <SubNavPrice treePriceUsd={treePriceUsd} />
               {userMenu}
