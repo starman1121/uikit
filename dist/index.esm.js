@@ -1338,11 +1338,11 @@ var ButtonMenu$1 = function (_a) {
 };
 var templateObject_1$X;
 
-var InactiveButton = styled(Button)(templateObject_1$W || (templateObject_1$W = __makeTemplateObject(["\n  background-color: transparent;\n  color: ", ";\n  &:hover:not(:disabled):not(:active) {\n    background-color: transparent;\n  }\n"], ["\n  background-color: transparent;\n  color: ", ";\n  &:hover:not(:disabled):not(:active) {\n    background-color: transparent;\n  }\n"])), function (_a) {
+var InactiveButton = styled(Button)(templateObject_1$W || (templateObject_1$W = __makeTemplateObject(["\n  background-color: transparent;\n  \n  color: ", ";\n  &:hover:not(:disabled):not(:active) {\n    background-color: transparent;\n  }\n"], ["\n  background-color: transparent;\n  \n  color: ", ";\n  &:hover:not(:disabled):not(:active) {\n    background-color: transparent;\n  }\n"])), function (_a) {
     var theme = _a.theme, variant = _a.variant;
     return (variant === variants$5.PRIMARY ? theme.colors.primary : theme.colors.textSubtle);
 });
-var StyledButton = styled(Button)(templateObject_2$s || (templateObject_2$s = __makeTemplateObject(["\n  margin-bottom: 10px;\n  padding-top: 12px;\n  font-weight: 500;\n  letter-spacing: 0.03em;\n  color: ", ";\n  // box-shadow: ", ";\n\n  &:after {\n    margin-top: 12px;\n    content: \"\";\n    display: block;\n    background: ", ";\n    height: 4px;\n    width: 100%;\n  }\n"], ["\n  margin-bottom: 10px;\n  padding-top: 12px;\n  font-weight: 500;\n  letter-spacing: 0.03em;\n  color: ", ";\n  // box-shadow: ", ";\n\n  &:after {\n    margin-top: 12px;\n    content: \"\";\n    display: block;\n    background: ", ";\n    height: 4px;\n    width: 100%;\n  }\n"])), function (_a) {
+var StyledButton = styled(Button)(templateObject_2$s || (templateObject_2$s = __makeTemplateObject(["\n  margin-bottom: 10px;\n  padding-top: 12px;\n  font-weight: 500;\n  letter-spacing: 0.03em;\n  color: ", ";\n  // box-shadow: ", ";\n  border-radius: 0px;\n  border-bottom: 2px solid #F0D1FF;\n  &:after {\n    margin-top: 12px;\n    content: \"\";\n    display: block;\n    background: ", ";\n    height: 4px;\n    width: 100%;\n  }\n"], ["\n  margin-bottom: 10px;\n  padding-top: 12px;\n  font-weight: 500;\n  letter-spacing: 0.03em;\n  color: ", ";\n  // box-shadow: ", ";\n  border-radius: 0px;\n  border-bottom: 2px solid #F0D1FF;\n  &:after {\n    margin-top: 12px;\n    content: \"\";\n    display: block;\n    background: ", ";\n    height: 4px;\n    width: 100%;\n  }\n"])), function (_a) {
     var theme = _a.theme;
     return "" + theme.colors.primaryBright;
 }, function (_a) {
