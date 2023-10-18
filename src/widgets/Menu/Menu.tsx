@@ -221,8 +221,6 @@ const Menu: React.FC<NavProps> = ({
             </Flex> */}
             <Flex>
              
-              <SubNavTextGam />
-              <SubNavPrice treePriceUsd={treePriceUsd} />
               {userMenu}
             </Flex>
           </ConnectContainer>
